@@ -1,0 +1,109 @@
+20230603
+<class 'pandas.core.frame.DataFrame'>
+Int64Index: 35 entries, 5 to 39
+Data columns (total 8 columns):
+ #   Column      Non-Null Count  Dtype         
+---  ------      --------------  -----         
+ 0   Date1       35 non-null     object        
+ 1   Time1       35 non-null     object        
+ 2   Stage1      35 non-null     object        
+ 3   Discharge1  35 non-null     object        
+ 4   Date2       35 non-null     datetime64[ns]
+ 5   Time2       35 non-null     object        
+ 6   Stage2      35 non-null     object        
+ 7   Discharge2  35 non-null     float64       
+dtypes: datetime64[ns](1), float64(1), object(6)
+memory usage: 2.5+ KB
+None
+  Forecast_Date    MODO3
+0    2023-06-03  5334.00
+1    2023-06-04  5315.50
+2    2023-06-05  5268.50
+3    2023-06-06  5231.25
+4    2023-06-07  5185.00
+5    2023-06-08  5157.25
+6    2023-06-09  5129.50
+7    2023-06-10  5111.00
+8    2023-06-11  5083.25
+9    2023-06-12  5074.00
+                                                     0
+0             MCKENZIE--BELOW TRAIL BRIDGE DAM (TRBO3)
+1                                                     
+2    Observed     Forecast/Trend Issued: 2023-06-02...
+3    Date/Time (PDT) Stage Discharge     Date/Time ...
+4    2023-06-03 07:30 7.08 1254     2023-06-03 11:0...
+..                                                 ...
+978                   2023-05-23 18:00 7.44 1637      
+979                   2023-05-23 17:45 7.44 1637      
+980                   2023-05-23 17:30 7.44 1637      
+981                   2023-05-23 17:15 7.44 1637      
+982                   2023-05-23 17:00 7.44 1637      
+
+[983 rows x 1 columns]
+  Forecast_Date    TRBO3
+0    2023-06-03  1284.00
+1    2023-06-04  1266.25
+2    2023-06-05  1251.75
+3    2023-06-06  1238.25
+4    2023-06-07  1221.50
+5    2023-06-08  1217.00
+6    2023-06-09  1202.75
+7    2023-06-10  1165.75
+8    2023-06-11  1129.50
+9    2023-06-12  1107.00
+  Forecast_Date    MODO3    TRBO3                 UpdateDate
+0    2023-06-03  5334.00  1284.00 2023-06-03 07:39:26.689268
+1    2023-06-04  5315.50  1266.25 2023-06-03 07:39:26.689268
+2    2023-06-05  5268.50  1251.75 2023-06-03 07:39:26.689268
+3    2023-06-06  5231.25  1238.25 2023-06-03 07:39:26.689268
+4    2023-06-07  5185.00  1221.50 2023-06-03 07:39:26.689268
+5    2023-06-08  5157.25  1217.00 2023-06-03 07:39:26.689268
+6    2023-06-09  5129.50  1202.75 2023-06-03 07:39:26.689268
+7    2023-06-10  5111.00  1165.75 2023-06-03 07:39:26.689268
+8    2023-06-11  5083.25  1129.50 2023-06-03 07:39:26.689268
+9    2023-06-12  5074.00  1107.00 2023-06-03 07:39:26.689268
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 396 entries, 0 to 395
+Data columns (total 10 columns):
+ #   Column              Non-Null Count  Dtype  
+---  ------              --------------  -----  
+ 0   Year                396 non-null    int64  
+ 1   month_nu            396 non-null    int64  
+ 2   day_nu              396 non-null    int64  
+ 3   mean_va             396 non-null    int64  
+ 4   Percent Average     396 non-null    float64
+ 5   Expected Mean       396 non-null    float64
+ 6   Smoothed Final CFS  366 non-null    float64
+ 7   Historic Average    396 non-null    int64  
+ 8   H/K factor          396 non-null    float64
+ 9   Round Butte (MW)    396 non-null    float64
+dtypes: float64(5), int64(5)
+memory usage: 31.1 KB
+None
+     Year  month_nu  day_nu  mean_va  Percent Average  Expected Mean  Smoothed Final CFS  \
+0    2022        12      17     4850         0.790885    3835.790885                 NaN   
+1    2022        12      18     4870         0.790885    3851.608579                 NaN   
+2    2022        12      19     4850         0.790885    3835.790885                 NaN   
+3    2022        12      20     4860         0.790885    3843.699732                 NaN   
+4    2022        12      21     4880         0.790885    3859.517426                 NaN   
+..    ...       ...     ...      ...              ...            ...                 ...   
+391  2024         1      11     5070         0.876667    4444.699662                 NaN   
+392  2024         1      12     5100         0.876667    4470.999660                 NaN   
+393  2024         1      13     5080         0.876667    4453.466328                 NaN   
+394  2024         1      14     5080         0.876667    4453.466328                 NaN   
+395  2024         1      15     5080         0.876667    4453.466328                 NaN   
+
+     Historic Average  H/K factor  Round Butte (MW) ForecastMonthDate  
+0                 125       25.49       3878.406819        2022-12-01  
+1                 125       25.49       3878.406819        2022-12-01  
+2                 125       25.49       3878.406819        2022-12-01  
+3                 125       25.49       3878.406819        2022-12-01  
+4                 125       25.49       3878.406819        2022-12-01  
+..                ...         ...               ...               ...  
+391               125       25.49       4299.071204        2024-01-01  
+392               125       25.49       4299.071204        2024-01-01  
+393               125       25.49       4299.071204        2024-01-01  
+394               125       25.49       4299.071204        2024-01-01  
+395               125       25.49       4299.071204        2024-01-01  
+
+[396 rows x 11 columns]

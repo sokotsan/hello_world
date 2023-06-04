@@ -1,0 +1,29 @@
+20230602
+['ID', ' des', ' PE', ' val', ' avg', ' %avg']
+      RFCCode                         Description ParCode      Val  Average Pct_Avg ForecastDate  \
+0       LYDM8                KOOTENAI - LIBBY DAM     QI     2180     3974       55        05-30   
+1       LEOI1                KOOTENAI - AT LEONIA     QR     2995     3432       87        05-30   
+2       BFEI1         KOOTENAI - AT BONNERS FERRY      HG        M        M       M        05-30   
+3       FCFM8   NF FLATHEAD - NEAR COLUMBIA FALLS     QR      414      909       46        05-30   
+4       WGCM8     MF FLATHEAD - NEAR WEST GLACIER     QR      538      854       63        05-30   
+...       ...                                 ...     ...      ...      ...     ...          ...   
+14152   TDAO3           COLUMBIA - THE DALLES DAM     QI    33231    42021       79       09-27    
+14153   PITW1               KLICKITAT - NEAR PITT     QR      246      257       96       09-27    
+14154   HODO3           HOOD - NEAR TUCKER BRIDGE     QR      105      112       94       09-27    
+14155   UNDW1       WHITE SALMON - NEAR UNDERWOOD     QR      179      196       91       09-27    
+14156   BONO3           COLUMBIA - BONNEVILLE DAM     QI    33791    43322       78       09-27    
+
+      ParameterValue  
+0              28685  
+1              22083  
+2              54.54  
+3               5420  
+4               7302  
+...              ...  
+14152         85365   
+14153           756   
+14154           313   
+14155           515   
+14156         87021   
+
+[14157 rows x 8 columns]

@@ -1,0 +1,9 @@
+20230603
+3.9.12 (main, Apr  4 2022, 05:22:27) [MSC v.1916 64 bit (AMD64)]
+  Forecast Date  High Temp  Low Temp
+0     04-Jun-23         75        50
+1     05-Jun-23         83        54
+2     06-Jun-23         91        54
+3     07-Jun-23         90        60
+4     08-Jun-23         85        57
+Mail sent successfully.
