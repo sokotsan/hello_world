@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-Created on Tue Feb 28 19:56:49 2023
-
+****************************
+Created with IVAN
 @author: skotsan
 """
 
@@ -11,7 +11,7 @@ from scipy.stats import norm
 import matplotlib.pyplot as plt
 
 # Set mean and standard deviation
-mean = 130
+mean = 100
 std_dev = 20
 
 # Generate x-axis values
